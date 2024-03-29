@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Comunity</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </link>
+    <link rel="stylesheet" href="./dist/output.css">
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+    <!-- Navbar Section Strart -->
+    <header class="sticky top-0 bg-white left-0 items-center flex shadow-md z-10">
+        <div class="container max-w-6xl mx-auto px-4">
+            <div class="flex justify-between py-3 items-center relative">
+                <div class="px-4">
+                    <a href="#home" class="block">
+                        <img src="dist/img/logo.ico" alt="">
+                    </a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="humberger" name="humberger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="humberger-line origin-top-left transition duration-300 ease-in-out"></span>
+                        <span class="humberger-line transition duration-300 ease-in-out"></span>
+                        <span class="humberger-line origin-bottom-left transition duration-300 ease-in-out"></span>
+                    </button>
+                    <nav id="nav-menu" class="hidden absolute py-6 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home" class="text-base text-black font-semibold py-2 mx-8 flex group-hover:text-blue-500">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about" class="text-base text-black font-semibold py-2 mx-8 flex group-hover:text-blue-500">About</a>
+                            </li>
+                            <li class="group">
+                                <a href="#location" class="text-base text-black font-semibold py-2 mx-8 flex group-hover:text-blue-500">Lokasi</a>
+                            </li>
+                            <li class="group">
+                                <a href="#article" class="text-base text-black font-semibold py-2 mx-8 flex group-hover:text-blue-500">Artikel</a>
+                            </li>
+                            <li class="group">
+                                <a href="#weather" class="text-base text-black font-semibold py-2 mx-8 flex group-hover:text-blue-500">Cuaca</a>
+                            </li>
+                            <li class="group">
+                                <a href="#disaster-updates" class="text-base text-black font-semibold py-2 mx-8 flex group-hover:text-blue-500">Update Bencana</a>
+                            </li>
+                            <li class="group">
+                                <a href="#contact" class="text-base text-black font-semibold py-2 mx-8 flex group-hover:text-blue-500">Kontak Kami</a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Navbar Section End -->
+
+    <!--Home Section Start-->
+    <section id="home" class="top-0 m-0 bg-blue-500 text-white py-32">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold mb-2 text-center">Selamat Datang Di Website Komunitas GajahWong</h2>
+            <h3 class="text-2xl mb-8 text-center">Connecting people through shared interests and ideas</h3>
+        </div>
+    </section>
+    <!--Home Section end-->
+
+    <!-- About Section start-->
+    <section id="about" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center text-gray-800 mb-8">Tentang Kami</h2>
+            <div class="flex flex-wrap">
+                <div class="w-full md:w-1/2 px-6">
+                    <p class="text-gray-600 mb-8">Our community is dedicated to bringing people together to share their
+                        passions, learn from each other, and build lasting relationships. We believe in the power of
+                        community to inspire and support individuals in their personal and professional growth.</p>
+                </div>
+                <div class="w-full md:w-1/2 px-6">
+                    <img class="w-full h-auto" src="https://placehold.co/600x400" alt="Community gathering image" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--About Section end-->
+
+    <!-- Location Section start-->
+    <section id="location" class="bg-gray-200 py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center text-gray-800 mb-8">Lokasi Kami</h2>
+            <p class="text-gray-600 text-center mb-8">123 Community Street, City, Country</p>
+            <div class="text-center">
+                <a href="#"
+                    class="py-2 px-4 font-semibold rounded bg-blue-500 text-white hover:bg-blue-400 transition duration-300">Get
+                    Directions</a>
+            </div>
+        </div>
+    </section>
+    <!--Location Section end-->
+
+    <!-- Article Section start -->
+    <section id="article" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center text-gray-800 mb-8">Artikel Terbaru</h2>
+            <div class="flex flex-wrap -mx-4">
+                <!-- Repeat for each article -->
+            </div>
+        </div>
+    </section>
+    <!-- Article Section end -->
+
+    <!-- Weather Section Start -->
+    <section id="weather" class="bg-blue-100 py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center text-gray-800 mb-8">Cuaca Hari Ini</h2>
+            <p class="text-gray-600 text-center mb-8">Stay updated with the latest weather conditions in our community.
+            </p>
+            <!-- Weather widget or information can be added here -->
+        </div>
+    </section>
+    <!-- Weather Section end -->
+
+    <!-- Disaster Updates Section Starts -->
+    <section id="disaster-updates" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center text-gray-800 mb-8">Update Bencana</h2>
+            <p class="text-gray-600 text-center mb-8">Important alerts and updates regarding natural disasters or
+                emergencies.</p>
+            <!-- Updates and alerts can be added here -->
+        </div>
+    </section>
+    <!-- Disaster Updates Section end -->
+
+    <!-- Contact Section Starts -->
+    <section id="contact" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center text-gray-800 mb-8">Hubungi Kami</h2>
+            <div class="flex justify-center">
+                <div class="flex items-center space-x-3">
+                    <div class="text-blue-500">
+                        <i class="fas fa-phone-alt fa-lg"></i>
+                    </div>
+                    <p class="text-gray-600">+1 (555) 123-4567</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section end -->
+
+    <!-- Footer Starts -->
+    <footer class="bg-white">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <p class="text-gray-500 text-sm">© 2024 GajahWong. All rights reserved.</p>
+                <div class="flex">
+                    <a href="#" class="text-gray-500 text-sm text-decoration-none px-4">Privacy Policy</a>
+                    <a href="#" class="text-gray-500 text-sm text-decoration-none px-4">Terms & Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer end -->
+</body>
+
+<script src="dist/js/script.js"></script>
+
+</html>
